@@ -17,9 +17,10 @@ int main(){
         int m = l + (r - l) / 2;
  
         // Check if x is present at mid
-        if (a[m] == x)
+        if (a[m] == x){
             printf("The %d element is in %d index\n",x,m);
             goto linear;
+        }
  
         // If x greater, ignore left half
         if (a[m] < x)

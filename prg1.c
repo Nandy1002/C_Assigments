@@ -17,7 +17,7 @@ void main(){
 	for(int i=0;i<n;i++){
 		sum += mark[i];
 	}
-	printf("The average of %d marks are : %d",n,sum/n);
+	printf("The average of %d marks are : %f\n",n,sum/n);
 	printf("Enter the Roll_No you want to find : ");
 	scanf("%d",&roll);
 	printf("The name of the student is : %s\n",name[roll-1]);

@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 
-// Driver code
 int main()
 {
 	int num,rev = 0;

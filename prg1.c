@@ -1,3 +1,4 @@
+//average marks
 #include<stdio.h>
 
 void main(){
@@ -12,6 +13,11 @@ void main(){
 		printf("Enter his makrs : ");
 		scanf("%f",&mark[i]);
 	}
+	float sum = 0;
+	for(int i=0;i<n;i++){
+		sum += mark[i];
+	}
+	printf("The average of %d marks are : %d",n,sum/n);
 	printf("Enter the Roll_No you want to find : ");
 	scanf("%d",&roll);
 	printf("The name of the student is : %s\n",name[roll-1]);

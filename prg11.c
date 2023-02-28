@@ -1,7 +1,7 @@
 // factor of natural number
 #include<stdio.h>
 int main(){
-    int n,fact=1;
+    int n;
     printf("Enter the number for factor : ");
     scanf("%d",&n);
 

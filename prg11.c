@@ -4,8 +4,13 @@ int main(){
     int n,fact=1;
     printf("Enter the number for factor : ");
     scanf("%d",&n);
-    for(int i=1;i<=n;i++){
-        fact *= i;
+
+    printf("The Factors of %d are : \n",n);    
+    for (int i = 1; i <= n; i++){
+        if (n % i == 0){
+            printf("%d ", i);
+        }
     }
-    printf("%d is the factorial\n",fact);
+    printf("\n");
+    return 0;
 }

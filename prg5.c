@@ -1,12 +1,11 @@
 // Simple Calculator Using switch case
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
 	char ch;
 	float a, b;
-	printf("Enter an operator (+, -, *, /), if want to exit press x: ");
+	printf("Enter an operator (+, -, *, /) : ");
 	scanf("%c", &ch);
 	printf("Enter two first and second operand: ");
 	scanf("%f %f",&a,&b);

@@ -4,7 +4,7 @@ int main(){
     int n,x;
     printf("Enter the number of elements in the array : ");
     scanf("%d",&n);
-    printf("Binarray Search : \n");
+    printf("Binary Search : \n");
     int a[n];
     printf("Enter the array elements in sorted order : ");
     for(int i=0;i<n;i++){
@@ -33,7 +33,7 @@ int main(){
     printf("The element is not in the array.\n");
     linear:
     printf("Linear Search : \n");
-    printf("Enter the array elements in sorted order : ");
+    printf("Enter the array elements : ");
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
@@ -42,7 +42,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(a[i] == x){
             printf("The element %d is in %d index.\n",a[i],i);
-            break;
+            return 0;
         }
     }
     printf("The element %d is not in the array",x);

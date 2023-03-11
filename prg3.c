@@ -9,7 +9,7 @@ int main(){
         if(num1>num3){
             printf("%d is the Largest.\n",num1);
         }else{
-            printf("%d is the Largest.\n", num2);
+            printf("%d is the Largest.\n", num3);
         }
     }else{
         if(num2>num3){
